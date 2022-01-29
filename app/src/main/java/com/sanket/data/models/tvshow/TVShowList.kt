@@ -1,4 +1,4 @@
-package com.sanket.data
+package com.sanket.data.models.tvshow
 
 
 import com.google.gson.annotations.SerializedName

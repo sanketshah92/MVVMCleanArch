@@ -1,4 +1,4 @@
-package com.sanket.data
+package com.sanket.data.models.movie
 import com.google.gson.annotations.SerializedName
 
 data class MovieList(

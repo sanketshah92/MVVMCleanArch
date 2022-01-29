@@ -1,8 +1,8 @@
 package com.sanket.data.api
 
-import com.sanket.data.ArtistList
-import com.sanket.data.MovieList
-import com.sanket.data.TVShowList
+import com.sanket.data.models.artist.ArtistList
+import com.sanket.data.models.movie.MovieList
+import com.sanket.data.models.tvshow.TVShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
