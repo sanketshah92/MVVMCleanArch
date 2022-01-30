@@ -6,8 +6,10 @@
         <entry key="app/src/main/res/drawable/btn_rounded.xml" value="0.159375" />
         <entry key="app/src/main/res/layout/activity_artist.xml" value="0.10416666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_movie.xml" value="0.10416666666666667" />
+        <entry key="app/src/main/res/layout/activity_movie.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_tvshow.xml" value="0.10416666666666667" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.165" />
+        <entry key="app/src/main/res/menu/update.xml" value="0.165" />
       </map>
     </option>
   </component>

@@ -35,6 +35,7 @@ class MovieRepositoryImpl(
                 }
             }
         } catch (e: Exception) {
+            e.printStackTrace()
             movieList = emptyList()
         }
         return movieList
@@ -64,7 +65,7 @@ class MovieRepositoryImpl(
             movieList = emptyList()
         }
         if (movieList.isEmpty()) {
-            movieList = movieLocalDataSource.getMoviesFromDB()
+            movieList = getMoviesFromDB()
             movieCacheDataSource.saveMoviesToCache(movieList)
         }
         return movieList
