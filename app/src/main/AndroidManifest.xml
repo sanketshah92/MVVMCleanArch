@@ -20,8 +20,7 @@
         <activity
             android:name=".presentation.movie.MovieActivity"
             android:exported="false"
-            android:label="@string/title_activity_movie"
-            android:theme="@style/Theme.MVVMCleanArch1.NoActionBar" />
+            android:label="@string/title_activity_movie" />
         <activity
             android:name=".presentation.HomeActivity"
             android:exported="true">
